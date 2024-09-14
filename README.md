@@ -42,11 +42,14 @@ Highly experienced Cloud DevOps Engineer with 8+ years of technical expertise in
 ## Certifications
 <div style="display: flex; flex-wrap: nowrap; overflow-x: auto;">
 <!-- GCP Certification Badge -->
-    <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/45954152" width="100">
+<img src="/badge/gcp.png" width="100">
+
 <!-- AWS Certification Badge -->
-    <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/45954152" width="100">
+<img src="/badge/aws.png" width="100">
+
 <!-- CKA Certification Badge -->
-    <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/45954152" width="100">
+<img src="/badge/cka.png" width="100">
+
 
  
 </div>
