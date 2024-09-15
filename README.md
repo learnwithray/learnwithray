@@ -2,14 +2,10 @@
 # Hello, I'm [Manoj Saini](https://www.linkedin.com/in/manoj-kumar-saini/) 👋
 
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&pause=1000&color=0C099A&width=435&lines=I'm+Platform+Engineer+;and+Experience+Google+AWS+Kubernetes+%F0%9F%9A%80)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&pause=1000&color=0C099A&width=435&lines=I+am+Platform+DevOps+Engineer+;and+Experienced+Google+AWS+Kubernetes+%F0%9F%9A%80)](https://git.io/typing-svg)
 
-<div style="display: flex; flex-wrap: nowrap; overflow-x: auto;">
-    <img src="https://storage.googleapis.com/bkt-static-content/badge-modern-architecture.png" width="150">
-    <img src="https://storage.googleapis.com/bkt-static-content/devlib-badge.png" width="200">
-</div>
 
-Highly experienced Cloud DevOps Engineer with 8+ years of technical expertise in designing, deploying, and managing highly available and scalable systems using Amazon Web Services / Google Cloud. Proven track record in delivering exceptional infrastructure solutions through meticulous planning, effective deployment strategies, and proactive maintenance. Possess strong interpersonal skills, motivation, quick learning ability, and a team-oriented approach to problem-solving, resulting in exceptional solutions with AWS Certified Solutions Architect, Certified Kubernetes Administrator and Red Hat Certified Engineer.
+**Highly experienced Cloud DevOps Engineer** with 8 years of technical expertise in designing, deploying, and managing highly available and scalable systems using Amazon Web Services and Google Cloud. Proven track record in delivering exceptional infrastructure solutions through meticulous planning, effective deployment strategies, and proactive maintenance. Automated build and deployment processes, improving user experience, and built continuous integration systems using Terraform, Vault, Consul and other devops tools. Possess strong interpersonal skills, motivation, quick learning ability, and a team-oriented approach to problem-solving, resulting in exceptional solutions with AWS Certified Solutions Architect, Certified Kubernetes Administrator and Red Hat Certified Engineer.
 
 <br>
 <br>
@@ -42,11 +38,14 @@ Highly experienced Cloud DevOps Engineer with 8+ years of technical expertise in
 ## Certifications
 <div style="display: flex; flex-wrap: nowrap; overflow-x: auto;">
 <!-- GCP Certification Badge -->
-    <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/45954152" width="100">
+<img src="/badge/gcp.png" width="100">
+
 <!-- AWS Certification Badge -->
-    <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/45954152" width="100">
+<img src="/badge/aws.png" width="100">
+
 <!-- CKA Certification Badge -->
-    <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/45954152" width="100">
+<img src="/badge/cka.png" width="100">
+
 
  
 </div>
