@@ -1,229 +1,357 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Manoj Kumar Saini | Platform Engineer</title>
 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
 <style>
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    margin:0;
-    background:#f5f7fb;
-    color:#333;
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
 }
 
+body{
+background:#f5f7fb;
+color:#333;
+}
+
+/* NAVBAR */
+
+nav{
+background:#0f172a;
+color:white;
+display:flex;
+justify-content:center;
+gap:40px;
+padding:15px;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:500;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#38bdf8;
+}
+
+/* HERO */
+
 header{
-    background:#0f172a;
-    color:white;
-    padding:40px;
-    text-align:center;
+background:linear-gradient(135deg,#0f172a,#1e3a8a);
+color:white;
+text-align:center;
+padding:70px 20px;
 }
 
 header h1{
-    margin:0;
-    font-size:34px;
+font-size:42px;
+margin-bottom:10px;
 }
 
 header p{
-    margin-top:10px;
-    font-size:16px;
+opacity:0.9;
 }
 
+.contact{
+margin-top:15px;
+}
+
+.contact a{
+color:#38bdf8;
+margin:0 10px;
+text-decoration:none;
+}
+
+/* BUTTONS */
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 22px;
+background:#38bdf8;
+color:white;
+border-radius:8px;
+text-decoration:none;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#0284c7;
+transform:translateY(-2px);
+}
+
+/* CONTAINER */
+
 .container{
-    max-width:1100px;
-    margin:auto;
-    padding:40px 20px;
+max-width:1100px;
+margin:auto;
+padding:60px 20px;
 }
 
 .section{
-    margin-bottom:50px;
+margin-bottom:70px;
 }
 
 .section h2{
-    border-left:5px solid #2563eb;
-    padding-left:10px;
-    margin-bottom:20px;
+font-size:28px;
+margin-bottom:25px;
+border-left:5px solid #2563eb;
+padding-left:10px;
 }
+
+/* SKILLS */
 
 .skills{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:15px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+gap:20px;
 }
 
-.skill-card{
-    background:white;
-    padding:15px;
-    border-radius:8px;
-    box-shadow:0 2px 5px rgba(0,0,0,0.08);
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 6px 18px rgba(0,0,0,0.08);
+cursor:pointer;
+transition:0.3s;
 }
+
+.card:hover{
+transform:translateY(-6px);
+box-shadow:0 12px 25px rgba(0,0,0,0.12);
+}
+
+.card h3{
+margin-bottom:8px;
+font-size:17px;
+}
+
+/* EXPERIENCE */
 
 .job{
-    background:white;
-    padding:20px;
-    margin-bottom:15px;
-    border-radius:8px;
-    box-shadow:0 2px 5px rgba(0,0,0,0.08);
+background:white;
+padding:25px;
+margin-bottom:20px;
+border-radius:10px;
+box-shadow:0 6px 18px rgba(0,0,0,0.08);
+transition:0.3s;
 }
 
-.job h3{
-    margin:0;
+.job:hover{
+transform:scale(1.02);
 }
 
 .job span{
-    font-size:14px;
-    color:#555;
+color:#666;
+font-size:14px;
 }
 
-ul{
-    margin-top:10px;
+.job ul{
+margin-top:10px;
+padding-left:20px;
 }
+
+/* CERTIFICATIONS */
+
+.cert ul{
+line-height:2;
+}
+
+/* FOOTER */
 
 footer{
-    text-align:center;
-    padding:20px;
-    background:#0f172a;
-    color:white;
+text-align:center;
+background:#0f172a;
+color:white;
+padding:20px;
 }
 
-a{
-    color:#3b82f6;
-    text-decoration:none;
+/* ANIMATION */
+
+.fade{
+opacity:0;
+transform:translateY(20px);
+transition:all 0.6s ease;
+}
+
+.fade.show{
+opacity:1;
+transform:translateY(0);
 }
 
 </style>
+
 </head>
 
 <body>
 
+<!-- NAV -->
+
+<nav>
+<a href="#about">Summary</a>
+<a href="#skills">Skills</a>
+<a href="#experience">Experience</a>
+<a href="#certifications">Certifications</a>
+<a href="#education">Education</a>
+</nav>
+
+<!-- HERO -->
+
 <header>
+
 <h1>Manoj Kumar Saini</h1>
+
 <p>Platform Engineer | DevOps | Cloud | MLOps</p>
-<p>
-📞 +91-8600566173 |
-✉️ 109manojsaini@gmail.com |
+
+<div class="contact">
+
+📞 <a href="tel:+918600566173">Call</a> |
+
+✉️ <a href="mailto:109manojsaini@gmail.com">Email</a> |
+
 <a href="https://linkedin.com/in/manoj-kumar-saini" target="_blank">LinkedIn</a>
-</p>
+
+</div>
+
+<a class="btn" href="ManojSaini_PlatformEngineer.pdf" download>
+Download Resume
+</a>
+
 </header>
 
 
 <div class="container">
 
-<div class="section">
+<!-- SUMMARY -->
+
+<div id="about" class="section fade">
+
 <h2>Professional Summary</h2>
+
 <p>
-Results-driven DevOps & Cloud Engineer with 10+ years of experience building
-scalable and secure cloud-native platforms. Expertise in AWS, GCP, Kubernetes,
-Databricks, CI/CD automation, Infrastructure as Code, and MLOps. Proven
-track record delivering enterprise cloud transformations and optimizing
-cloud costs while enabling AI and data platform deployments.
+DevOps & Cloud Engineer with 10+ years experience designing scalable
+cloud-native platforms. Expert in AWS, GCP, Kubernetes, Databricks,
+CI/CD automation, Infrastructure as Code, and MLOps pipelines.
+Delivered enterprise cloud transformations and AI platforms
+while optimizing cloud costs.
 </p>
+
 </div>
 
 
-<div class="section">
+<!-- SKILLS -->
+
+<div id="skills" class="section fade">
+
 <h2>Technical Skills</h2>
 
 <div class="skills">
 
-<div class="skill-card">
-<strong>Cloud Platforms</strong>
+<div class="card" onclick="alert('AWS, GCP, Databricks')">
+<h3>☁️ Cloud Platforms</h3>
 <p>AWS, Google Cloud, Databricks</p>
 </div>
 
-<div class="skill-card">
-<strong>MLOps & AI</strong>
-<p>MLflow, Model Registry, Feature Store, Databricks Workflows, GenAI</p>
+<div class="card" onclick="alert('MLflow, Feature Store, GenAI Deployments')">
+<h3>🤖 MLOps & AI</h3>
+<p>MLflow, Model Registry, Feature Store</p>
 </div>
 
-<div class="skill-card">
-<strong>Containers</strong>
-<p>Docker, Kubernetes, EKS, GKE, Helm</p>
+<div class="card" onclick="alert('Docker, Kubernetes, Helm')">
+<h3>📦 Containers</h3>
+<p>Docker, Kubernetes, EKS, GKE</p>
 </div>
 
-<div class="skill-card">
-<strong>Infrastructure as Code</strong>
-<p>Terraform, Terraform Cloud, CloudFormation, Ansible</p>
+<div class="card" onclick="alert('Terraform, CloudFormation, Ansible')">
+<h3>🏗 Infrastructure as Code</h3>
+<p>Terraform, Terraform Cloud</p>
 </div>
 
-<div class="skill-card">
-<strong>CI/CD</strong>
-<p>Jenkins, GitHub Actions, CloudBees, GitLab CI, Azure DevOps</p>
+<div class="card" onclick="alert('Jenkins, GitHub Actions')">
+<h3>⚙️ CI/CD</h3>
+<p>Jenkins, GitHub Actions, GitLab CI</p>
 </div>
 
-<div class="skill-card">
-<strong>Security</strong>
-<p>Vault, Consul, OPA, AquaSec, Twistlock, SonarQube</p>
+<div class="card" onclick="alert('Vault, OPA, SonarQube')">
+<h3>🔐 Security</h3>
+<p>Vault, Consul, OPA, AquaSec</p>
 </div>
 
-<div class="skill-card">
-<strong>Observability</strong>
-<p>Dynatrace, Prometheus, Grafana, Splunk, ELK</p>
+<div class="card" onclick="alert('Prometheus, Grafana, Dynatrace')">
+<h3>📊 Observability</h3>
+<p>Prometheus, Grafana, Dynatrace</p>
 </div>
 
-<div class="skill-card">
-<strong>Programming</strong>
-<p>Python, Bash, Groovy, SQL</p>
+<div class="card" onclick="alert('Python, Bash, SQL')">
+<h3>💻 Programming</h3>
+<p>Python, Bash, Groovy</p>
 </div>
 
 </div>
 </div>
 
 
-<div class="section">
+<!-- EXPERIENCE -->
+
+<div id="experience" class="section fade">
+
 <h2>Professional Experience</h2>
 
 <div class="job">
 <h3>Platform Engineer — National Australia Bank</h3>
-<span>July 2025 – Present | Gurgaon, India</span>
+<span>Jul 2025 – Present | Gurgaon</span>
 <ul>
-<li>Supported GenAI deployments including model serving and feature pipelines.</li>
-<li>Deployed ML models in Databricks using MLflow and Model Registry.</li>
-<li>Implemented MLOps automation including CI/CD pipelines and governance.</li>
-<li>Maintained Terraform modules for Databricks clusters, jobs, and endpoints.</li>
+<li>Supported GenAI model deployments and feature pipelines.</li>
+<li>Deployed ML models using Databricks MLflow & Model Registry.</li>
+<li>Implemented MLOps automation and CI/CD pipelines.</li>
+<li>Maintained Terraform modules for Databricks infrastructure.</li>
 </ul>
 </div>
 
 <div class="job">
 <h3>Cloud DevOps Engineer — Wipro</h3>
-<span>Mar 2025 – Jul 2025 | Noida, India</span>
+<span>Mar 2025 – Jul 2025</span>
 <ul>
-<li>Saved $0.5M annually through cloud cost optimization.</li>
-<li>Designed AWS cloud infrastructure using Terraform.</li>
-<li>Managed Kubernetes clusters and resolved production incidents.</li>
+<li>Saved $0.5M annually via cloud cost optimization.</li>
+<li>Designed AWS environments with Terraform.</li>
+<li>Managed Kubernetes production environments.</li>
 </ul>
 </div>
 
 <div class="job">
 <h3>Cloud DevOps Engineer — Publicis Sapient</h3>
-<span>Feb 2021 – Mar 2025 | Noida, India</span>
+<span>Feb 2021 – Mar 2025</span>
 <ul>
-<li>Built Cloud Centre of Excellence reducing delivery timelines by 50%.</li>
-<li>Managed AWS EKS microservices with Helm.</li>
-<li>Automated CI/CD pipelines increasing deployments 3x.</li>
-<li>Developed reusable Terraform modules improving onboarding time by 60%.</li>
-<li>Completed 18-month onsite engagement in London.</li>
-</ul>
-</div>
-
-<div class="job">
-<h3>DevOps Engineer — HCL Technologies</h3>
-<span>Jan 2020 – Feb 2021 | Noida, India</span>
-<ul>
-<li>Migrated Jenkins jobs to Declarative Multibranch Pipelines.</li>
-<li>Built scalable CI/CD systems supporting frequent releases.</li>
-<li>Executed GCP Terraform POCs reducing environment setup time.</li>
+<li>Built Cloud Center of Excellence reducing delivery time 50%.</li>
+<li>Managed EKS microservices with Helm.</li>
+<li>Increased deployment frequency 3x via CI/CD automation.</li>
+<li>18-month onsite engagement in London.</li>
 </ul>
 </div>
 
 </div>
 
 
-<div class="section">
+<!-- CERTIFICATIONS -->
+
+<div id="certifications" class="section cert fade">
+
 <h2>Certifications</h2>
+
 <ul>
 <li>AWS Certified Solutions Architect – Associate</li>
 <li>Google Cloud Associate Cloud Engineer</li>
@@ -232,23 +360,51 @@ cloud costs while enabling AI and data platform deployments.
 <li>Databricks Platform Architect</li>
 <li>Databricks Generative AI Fundamentals</li>
 </ul>
+
 </div>
 
 
-<div class="section">
+<!-- EDUCATION -->
+
+<div id="education" class="section fade">
+
 <h2>Education</h2>
+
 <p>
-Bachelor of Engineering (Electronics & Telecommunication)<br>
+Bachelor of Engineering – Electronics & Telecommunication<br>
 Dr. Babasaheb Ambedkar Marathwada University
 </p>
+
 </div>
 
 </div>
 
 
 <footer>
-© 2026 Manoj Kumar Saini | DevOps & Platform Engineering
+
+© 2026 Manoj Kumar Saini
+
 </footer>
+
+
+<script>
+
+/* scroll animation */
+
+const observer = new IntersectionObserver(entries=>{
+entries.forEach(entry=>{
+if(entry.isIntersecting){
+entry.target.classList.add("show")
+}
+})
+})
+
+document.querySelectorAll(".fade").forEach(el=>{
+observer.observe(el)
+})
+
+</script>
+
 
 </body>
 </html>
